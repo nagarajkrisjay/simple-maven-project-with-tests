@@ -1,3 +1,5 @@
+properties([pipelineTriggers([cron('* * * * *')])])
+
 node ('master') {
 checkout scm
 stage('Build') {
