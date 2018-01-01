@@ -1,4 +1,4 @@
-#properties([pipelineTriggers([cron('* * * * *')])])
+// properties([pipelineTriggers([cron('* * * * *')])])
 
 node ('master') {
 checkout scm
